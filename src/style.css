@@ -17,3 +17,21 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.left-column {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right-column {
+    width: 380px;
+    background-color: #ffffff;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid #e5e5e5;
+}
