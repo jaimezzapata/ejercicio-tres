@@ -76,6 +76,10 @@
         border-radius: 8px;
     }
 
+    img:hover{
+        box-shadow: 0px 0px 8px black;
+    }
+
     #tarjetas{
         width: 100%;
         display: flex;
